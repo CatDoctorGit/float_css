@@ -1,0 +1,58 @@
+/*
+* @Author: CatDoctorGit
+* @Date:   2017-11-22 17:46:43
+* @Last Modified by:   CatDoctorGit
+* @Last Modified time: 2017-11-22 18:50:29
+*/
+body{
+	background-image: url(4627820.jpg);
+}
+table{
+	border-color: black;
+	border-width: 3px;
+	border-style: ridge;
+	border-collapse:collapse; 
+	text-align: center;
+}
+td{
+	width: 120px;
+	height: 35px;
+	
+	text-align: center;
+	background-color: skyblue;
+	font-size: 14pt;
+}
+input{
+	width: 95%;
+	height: 99%;
+	border-color: skyblue;
+	background-color: #ffffff;
+	opacity: 50;
+	text-align: center;
+	font-size: 14pt;
+}
+select{
+	width: 96%;
+	height: 97%;
+}
+#photo{
+	height: 30px;
+}
+.anniu{
+    width: 200px;
+    height: 40px;
+}
+textarea{
+	width: 98%;
+	border-color: skyblue;
+	font-size: 14pt;
+}
+input:hover{
+   height: 50px;
+}
+td:hover{
+   font-size: 26px;
+}
+textarea:hover{
+	height: 100px;
+}

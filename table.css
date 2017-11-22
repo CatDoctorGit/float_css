@@ -2,7 +2,7 @@
 * @Author: CatDoctorGit
 * @Date:   2017-11-22 10:43:52
 * @Last Modified by:   CatDoctorGit
-* @Last Modified time: 2017-11-22 15:15:58
+* @Last Modified time: 2017-11-22 17:44:29
 */
 body{
 	background-image: url(TIM截图20171122131514.png);
@@ -23,7 +23,7 @@ td{
 #border{
 	border-color: #999999;
 	border-style: ridge;
-	border-width: 8pt;
+	border-width: 5pt;
 	/* border-collapse: collapse; */
 }
 input{
@@ -31,7 +31,12 @@ input{
    height: 99%;
    text-align: center;
    background-color: infobackground;
+   opacity: 100;
    font-size: 16pt;
+}
+select{
+	height: 99%;
+	width: 99%;
 }
 #tr{
 	height: 70px;
