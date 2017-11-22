@@ -1,0 +1,55 @@
+/*
+* @Author: CatDoctorGit
+* @Date:   2017-11-22 10:43:52
+* @Last Modified by:   CatDoctorGit
+* @Last Modified time: 2017-11-22 13:44:33
+*/
+body{
+	background-image: url(TIM截图20171122131514.png);
+}
+td{
+	font-weight: bolder;
+	color: black;
+	font-family: 隶书;
+	font-size: 16pt;
+	text-align: center;
+	border-color: #666666;
+	border-width: 3pt;
+	width: 110px;
+	height: 35px;
+}
+#border{
+	border-color: black;
+	border-style: ridge;
+	border-width: 10pt;
+	/* border-collapse: collapse; */
+}
+input{
+   width: 97%;
+   height: 99%;
+   text-align: center;
+   background-color: infobackground;
+   font-size: 16pt;
+}
+#tr{
+	height: 70px;
+}
+.anniu{
+	width: 200px;
+	background-color:#666666; 
+	color: linen;
+}
+table{
+	background-color:#999999;
+}
+textarea{
+	width: 99%;
+	font-size: 16pt;
+	background-color: infobackground;
+}
+option{
+	color: red;
+}
+.zp{
+   height: 35px;
+}
