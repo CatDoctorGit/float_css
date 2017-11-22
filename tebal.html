@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh_ch">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+         td{
+         	text-align: center;
+         	color: blue;
+         }
+	</style>
+</head>
+<center>
+	<body>
+		<font size="7" color="red">登记表</font>
+	<form action="" method="post">
+		<table border="2" height="1080">
+			<tr>
+				<td>姓名</td>
+				<td><input type="text" name="name"></td>
+				<td>性别</td>
+				<td>
+				    <input type="radio" name="sex">男
+		            <input type="radio" name="sex">女
+		        </td>
+				<td>出生年月</td>
+				<td><input type="text" name="birthday"></td>
+				<td rowspan="4"><input type="file" name="file">照片</td>
+			</tr>
+			<tr>
+				<td>民族</td>
+				<td><input type="text" name="minzu"></td>
+				<td>血型</td>
+				<td><select>
+					<option value="a_blood">A</option>
+					<option value="ab_blood">AB</option>
+					<option value="b_blood">B</option>
+					<option value="o_blood">O</option>
+				</select></td>
+				<td>政治面貌</td>
+				<td><select>
+					<option value="qun">群众</option>
+					<option value="tuan">团员</option>
+					<option value="dang">党员</option>
+				</select></td>
+				
+			</tr>
+			<tr>
+				<td>毕业院校</td>
+				<td><input type="text" name="school"></td>
+				<td>学历</td>
+				<td><select>
+					<option value="xiaoxue">小学</option>
+					<option value="zhongxue">中学</option>
+					<option value="dazhuan">大专</option>
+					<option value="benke">本科</option>
+					<option value="shuoshi">硕士</option>
+					<option value="boshi">博士</option>
+					<option value="yuanshi">院士</option>
+				</select></td>
+				<td>专业</td>
+				<td><input type="text" name="zhuanye"></td>
+				
+			</tr>
+			<tr>
+				<td>婚姻状况</td>
+				<td><select>
+					<option value="weihun">未婚</option>
+					<option value="yihun">已婚</option>
+					<option value="lihun">离婚</option>
+				</select></td>
+				<td>到岗时间</td>
+				<td><input type="text" name="shijian"></td>
+				<td>期望薪资</td>
+				<td><input type="text" name="qian"></td>
+				
+			</tr>
+			<tr>
+				<td>身份证号</td>
+				<td colspan="3"><input type="text" name="id_number"></td>
+			
+				<td>家庭住址</td>
+				<td colspan="3"><input type="text" name="zhuzhi"></td>
+			</tr>
+			<tr>
+				<td>手机</td>
+				<td colspan="3"><input type="text" name="phone"></td>
+				<td>资格证书</td>
+				<td colspan="3"><input type="text" name="zhengshu"></td>
+			</tr>
+			<tr>
+				<td colspan="7">教育经历（从最高学历写起）</td>
+			</tr>
+			<tr>
+				<td colspan="2">起始时间</td>
+				<td colspan="2">学校</td>
+				<td colspan="2">专业</td>
+				<td>学历/单位</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" name="qishishijian"></td>
+				<td colspan="2"><input type="text" name="xuexiao"></td>
+				<td colspan="2"><input type="text" name="zhuanye"></td>
+				<td><input type="text" name="xueli"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" name="qishishijian"></td>
+				<td colspan="2"><input type="text" name="xuexiao"></td>
+				<td colspan="2"><input type="text" name="zhuanye"></td>
+				<td><input type="text" name="xueli"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" name="qishishijian"></td>
+				<td colspan="2"><input type="text" name="xuexiao"></td>
+				<td colspan="2"><input type="text" name="zhuanye"></td>
+				<td><input type="text" name="xueli"></td>
+			</tr>
+			<tr>
+				<td colspan="7">工作经历（从最后工作写起）</td>
+			</tr>
+			<tr>
+				<td>起始时间</td>
+				<td colspan="2">工作单位</td>
+				<td>职位</td>
+				<td>薪资</td>
+				<td>离职原因</td>
+				<td>证明人及电话</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="gongzuoshijian"></td>
+				<td colspan="2"><input type="text" name="danwei"></td>
+				<td><input type="text" name="zhiwei"></td>
+				<td><input type="text" name="xinzi"></td>
+				<td><input type="text" name="yuanyin"></td>
+				<td><input type="text" name="dianhua"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="gongzuoshijian"></td>
+				<td colspan="2"><input type="text" name="danwei"></td>
+				<td><input type="text" name="zhiwei"></td>
+				<td><input type="text" name="xinzi"></td>
+				<td><input type="text" name="yuanyin"></td>
+				<td><input type="text" name="dianhua"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="gongzuoshijian"></td>
+				<td colspan="2"><input type="text" name="danwei"></td>
+				<td><input type="text" name="zhiwei"></td>
+				<td><input type="text" name="xinzi"></td>
+				<td><input type="text" name="yuanyin"></td>
+				<td><input type="text" name="dianhua"></td>
+			</tr>
+			<tr>
+				<td colspan="7">家庭成员</td>
+			</tr>
+			<tr>
+				<td colspan="2">与本人关系</td>
+				<td>姓名</td>
+				<td colspan="2">工作单位及职务</td>
+				<td colspan="2">联系电话</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" name="guanxi"></td>
+				<td><input type="text" name="xingming"></td>
+				<td colspan="2"><input type="text" name="danweizhiwu"></td>
+				<td colspan="2"><input type="text" name="chengyuandianhua"></td>
+			</tr>
+			<tr>
+		        <td colspan="2"><input type="text" name="guanxi"></td>
+				<td><input type="text" name="xingming"></td>
+				<td colspan="2"><input type="text" name="danweizhiwu"></td>
+				<td colspan="2"><input type="text" name="chengyuandianhua"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" name="guanxi"></td>
+				<td><input type="text" name="xingming"></td>
+				<td colspan="2"><input type="text" name="danweizhiwu"></td>
+				<td colspan="2"><input type="text" name="chengyuandianhua"></td>
+			</tr>
+			<tr>
+				<td colspan="7">自我评价</td>
+			</tr>
+			<tr>
+				<td rowspan="2" colspan="7">
+				<textarea cols="140" rows="2">
+					
+				</textarea></td>
+			
+			</tr>
+			<tr>
+			
+			</tr>
+		</table>
+		<input type="submit" value="提交">
+		<input type="reset" value="重置">
+	</form>
+</body>
+</center>
+
+</html>
