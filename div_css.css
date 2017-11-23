@@ -1,0 +1,327 @@
+/*
+* @Author: CatDoctorGit
+* @Date:   2017-11-23 11:00:09
+* @Last Modified by:   CatDoctorGit
+* @Last Modified time: 2017-11-23 20:31:30
+*/
+
+.zi{
+	width: 60px;
+	height: 20px;
+	position: 0px auto;
+	float: left;
+	position: relative;
+	left: 290px;	
+}
+.ziyou{
+	width: 60px;
+	height: 20px;
+	position: 0px auto;
+	float: left;
+	position: relative;
+	left: 860px;
+}
+#ziyou{
+	width: 100px;
+}
+#zi{
+	margin-right: 30px;
+}
+.shang{
+	height: 150px;
+	width: 970px;
+	background-color: white;
+	float: left;
+	position: absolute;
+	left: 275px;
+	clear: left;
+	top: 40px;
+	border: gainsboro 1px solid;
+}
+.logo{
+	width: 180px;
+	height: 112px;
+	float: left;
+	position: relative;
+	left: 13px;
+}
+.rexian{
+	height: 20px;
+	width: 360px;
+	float: left;
+	margin-left: 180px;
+	margin-top: 45px;
+}
+.input{
+	width: 200px;
+	height: 25px;
+	float: left;
+	margin-top: 43px;
+	border: #C0C0C0 1px solid;
+	text-align: left;
+}
+.input input{
+	width: 160px;
+	height: 21px;
+	border: #C0C0C0 1px none;
+	float: left;
+}
+.input a{
+	float: right;
+}
+.hr{
+	width: 930px;
+	float: left;
+	margin-left: 12px;
+	margin-top: -30px;
+}
+.cai{
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin-left: 18px;
+	font-family: 宋体;
+}
+.datu{
+    width: 970px;
+    height: 288px;
+    float: left;
+    position: absolute;
+    left: 275px;
+    top: 210px;
+    border: 1px gainsboro solid;
+}
+.xiaobai{
+	height: 200px;
+	width: 220px;
+	background-color: #FFFFFF;
+	float: left;
+	position: absolute;
+	top: 210px;
+	left: 990px;
+	border: 1px gainsboro solid;
+}
+.da{
+	width: 730px;
+	height: 90px;
+	float: left;
+	position: absolute;
+	top: 500px;
+	left: 275px;
+	border: 1px gainsboro solid;
+}
+.xiaoxiaobai{
+   width: 180px;
+   height: 70px;
+   background-color: #FFFFFF;
+   text-align: center;
+   border-right: 1px gainsboro solid;
+   float: left;
+   padding-top: 20px;
+}
+
+.you{
+   width: 236px;
+   height: 70px;
+   background-color: #FFFFFF;
+   padding-top: 20px;
+   float: left;
+   position: absolute;
+   text-align: left;
+   padding-left: 10px;
+   top: 500px;
+   left: 999px;
+}
+#a{
+	color: #C0C0C0;
+	width: 210px;
+}
+.zhong{
+	width: 970px;
+	height: 150px;
+	background-color: #FFFFFF;
+	border: 1px solid gainsboro;
+	position: absolute;
+	top: 610px;
+	left: 276px;
+}
+.zhongzuo{
+	width: 340px;
+	height: 150px;
+	border-right: #C0C0C0 1px solid;
+	float: left;
+	position: absolute;
+}
+.zhongzuozi{
+	width: 140px;
+	height: 30px;
+	border-right: 1px #C0C0C0 solid;
+	float: left;
+	margin-top: 10px;
+}
+#abc{
+	border-right: 1px #C0C0C0 none;
+}
+ul{
+	text-align: left;
+}
+h6{
+	text-align: right;
+	position: relative;
+	top: -20px;
+	left: -10px;
+}
+.zhongyou{
+	width: 630px;
+	height: 150px;
+	float: left;
+	position: absolute;
+	left: 340px;
+	text-align: left;
+}
+.zhongyou a{
+     position: relative;
+     top: 18px;
+     left: 20px;
+}
+.tubiao{
+	width: 60px;
+	height: 100px;
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 40px;
+	margin-right: 10px;
+	text-align: center;
+}
+#dazhong{
+	width: 970px;
+	height: 400px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 780px;
+	left: 275px;
+	border: gainsboro solid 1px;
+}
+#gerenkehu{
+	width: 970px;
+	border-bottom: gainsboro solid 1px;
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	height: auto;
+}
+#dazhongzuo{
+	width: 340px;
+	height: 346px;
+	border-right:solid 1px gainsboro; 
+	position: absolute;
+}
+.xiaoxiao{
+	width: 300px;
+	height: 130px;
+	border: solid 1px gainsboro;
+	margin-top: 30px;
+	text-align: left;
+}
+p{
+    float: right;
+    position: relative;
+    left: -20px;
+}
+#shouji{
+	left: -35px;
+	position: relative;
+}
+#xia{
+	width: 970px;
+	height: 20px;
+	float: left;
+	position: absolute;
+	top: 1250px;
+	left: 270px;
+	text-align: center;
+}
+.youyou{
+	width: 630px;
+	height: 60px;
+	float: right;
+}
+.xiaoxiaobai1{
+	width: 100px;
+	height: 50px;
+	float: left;
+	padding-top:15px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	border-bottom: 1px solid gainsboro;
+}
+#xiao123{
+	margin-left: 10px;
+}
+.abaa:hover{
+	font-size: 16pt;
+	color: black;
+}
+#hn{
+	float: right;
+	position: relative;
+	top: 10px;
+}
+#xiahr{
+	width: 970px;
+	background-color: black;
+	height: 3px;
+	float: left;
+	position: absolute;
+	top: 1290px;
+	left: 276px;
+}
+.xiaxia{
+	width: 970px;
+	height: 50px;
+	position: absolute;
+	top: 1300px;
+	text-align: left;
+	float: left;
+	left: 305px;
+}
+#xiaxia{
+	float: left;
+	position: absolute;
+}
+.xiaxiatu{
+	width: 100px;
+	height: 50px;
+	float: right;
+	position: relative;
+	left: -40px;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+   color: #808080;
+}
+#xiao:visited{
+	color: black;
+}
+#xiao:hover{
+	color: red;
+}
+.aa:visited{
+    color: black;
+}
+.aa:hover{
+	color: red;
+}
+.ab:hover{
+	color: black;
+}
+.aba:hover{
+	color: black;
+}
+a:hover{
+	color: red;
+}
