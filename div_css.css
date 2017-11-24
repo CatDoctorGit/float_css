@@ -2,9 +2,11 @@
 * @Author: CatDoctorGit
 * @Date:   2017-11-23 11:00:09
 * @Last Modified by:   CatDoctorGit
-* @Last Modified time: 2017-11-23 20:31:30
+* @Last Modified time: 2017-11-24 10:34:03
 */
-
+body{
+	padding:0px auto;
+}
 .zi{
 	width: 60px;
 	height: 20px;
@@ -126,11 +128,11 @@
    background-color: #FFFFFF;
    padding-top: 20px;
    float: left;
-   position: absolute;
+   position: relative;
    text-align: left;
    padding-left: 10px;
-   top: 500px;
-   left: 999px;
+   top: 492px;
+   left: 622px;
 }
 #a{
 	color: #C0C0C0;
@@ -184,15 +186,22 @@ h6{
      top: 18px;
      left: 20px;
 }
+#tutu{
+	width: 630px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	padding-left: 0px;
+}
 .tubiao{
 	width: 60px;
 	height: 100px;
 	float: left;
-	position: relative;
-	top: 30px;
-	left: 40px;
-	margin-right: 10px;
+	margin-right: 8px;
 	text-align: center;
+	position: relative;
+	left: 20px;
+	top: -15px;
 }
 #dazhong{
 	width: 970px;
@@ -225,14 +234,12 @@ h6{
 	margin-top: 30px;
 	text-align: left;
 }
-p{
+.sj{
     float: right;
+    width: 130px;
     position: relative;
     left: -20px;
-}
-#shouji{
-	left: -35px;
-	position: relative;
+    text-align: left;
 }
 #xia{
 	width: 970px;
